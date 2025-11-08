@@ -1,0 +1,265 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav-bar */
+
+.nav-bar {
+    height: 60px;
+    /* width: 100vw; */
+    background-color: #026042;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav-logo */
+.logo-box {
+    height: 50px;
+    width: 113px;
+}
+
+.logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+ /* nav-add   */
+.nav-address {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.location-logo {
+    color: white;
+    font-size: 1rem;
+}
+
+.nav-addrerss-text {
+    margin-left: 3px;
+}
+
+.first-text {
+    color: #cccccc;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    opacity: 95%;
+}
+
+.second-text {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+/* nav search */
+
+.nav-search {
+    height: 40px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+}
+
+.nav-search:focus-within {
+    border: 2px solid rgb(222, 19, 201);
+}
+
+.select-option {
+    width: 50px;
+    outline: none;
+    text-align: center;
+    background-color: #E6E6E6;
+    color: #0F1111;
+    border: none;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.select-option:hover {
+    border: 2px solid orange
+}
+
+.search-input {
+    width: 605px;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    width: 45px;
+    background-color: #A9176F;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+/* nav-lang */
+
+.nav-lang {
+    width: 60px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lang-flag {
+    width: 21px;
+    height: 16px;
+    background-image: url('https://flagdownload.com/wp-content/uploads/Flag_of_United_States-1024x539.png');
+    background-size: cover;
+}
+
+.lang-ops {
+    /* width: 38px; */
+    display: flex;
+    align-items: center;
+}
+
+.lang-text {
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    padding-left: 2px;
+}
+
+
+.langs-ops {
+    border: none;            
+    outline: none;           
+    box-shadow: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav-signin */
+
+.nav-first {
+    font-size:0.6rem;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.nav-second {
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+/* nav-cart */
+
+.nav-cart {
+    display: flex;
+}
+
+
+.nav-cart i {
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+.cart {
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+/* Nav -panel */
+
+.nav-panel {
+    height: 40px;
+    /* width: 100vw; */
+    background-color: #085749;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.panel-all {
+    height: 100%;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    padding: 10px 5px 10px 5px ;
+    display: flex;
+    align-items: center;
+}
+
+.panel-all p {
+    margin-left: 2px;
+    font-size: 0.875rem;
+}
+.panel-ops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-ops a {
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    /* margin-right: 20px; */
+    padding: 10px 10px 10px 10px ;
+}
+
+/* Hero section */
+
+.hero-section {
+    height: 300px;
+    background-image: url('images/image.png');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    height: 40px;
+    width: 95%;
+    background-color: #F5F6F6;
+    color: #0F1111;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.925rem;
+}
+
+.hero-msg a {
+    text-decoration: none;
+}
+
+/* shop section */
+
+.shop-section {
+    background-color: #EB6375;
+}
+
+.box1 {
+    height: 420px;
+    width: 300px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+
+}
